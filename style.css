@@ -1,0 +1,52 @@
+.row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .row div {
+    width: 50%;
+  }
+  
+  .noMargin {
+    margin: 0px;
+  }
+  
+  .one {
+    background-color: rgba(255, 0, 0, 0);
+    
+  }
+  
+  .two {
+    background-color: rgba(255, 255, 0, 0);
+    
+  }
+  
+  .three {
+    background-color: rgba(0, 128, 0, 0);
+    
+  }
+  
+  .four {
+    background-color: rgba(0, 0, 255, 0);
+   
+  }
+  .zoom {
+    padding: 70px;
+    transition: transform .5s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:active {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    cursor: zoom-out;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
